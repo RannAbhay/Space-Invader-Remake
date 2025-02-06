@@ -26,7 +26,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: move 5s infinite linear;
+    animation: move 6s infinite linear;
 }
 
 @keyframes move {
@@ -93,7 +93,7 @@ body{
     width: 500px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
-    transition: opacity 2s;
+    transition: opacity 4s;
 }
 
 
