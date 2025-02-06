@@ -8,7 +8,6 @@ let checkfuelinterval = setInterval(() => {
 
 function checkFuel() {
     if (areNoKeysPressed() && fuel < 1000) {
-        Fused++;
         fuel++;
     }
 }
