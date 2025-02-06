@@ -11,7 +11,7 @@ function popitup() {
     }
     document.getElementsByClassName('YourStats')[0].innerHTML =`Your Stats`;
     document.getElementsByClassName('BulletsFired')[0].innerHTML =`Bullets Fired: ${MyBullets}`;
-    document.getElementsByClassName('FuelUsed')[0].innerHTML =`Extra Fuel Used: ${Fused}L`;
+    document.getElementsByClassName('FuelUsed')[0].innerHTML =`Total Fuel Used: ${Fused}L`;
     document.getElementsByClassName('BulletsFiredByAliens')[0].innerHTML =`Bullets Fired By Aliens: ${OppBullets}`;
     document.getElementsByClassName('TimeTaken')[0].innerHTML =`Time Taken: ${TimeTaken} sec`;
 
