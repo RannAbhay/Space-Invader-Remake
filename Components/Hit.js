@@ -19,7 +19,7 @@ let defe = setInterval(() => {
             myHealth--;
         }
     }
-}, 100);
+}, 1);
 
 let attk = setInterval(() => {
     for (let i = 0; i < myballs.length; i++) {
@@ -28,7 +28,7 @@ let attk = setInterval(() => {
             oppHealth--;
         }
     }
-}, 100);
+}, 1);
 
 let heal = setInterval(() => {
     if ((myHealth <= 0) || (oppHealth <= 0)) {
