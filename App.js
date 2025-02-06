@@ -35,14 +35,17 @@ function handleActions() {
     if (keys["ArrowLeft"] && position > 1 && fuel >= 1) {
         position -= 0.3;
         fuel--;
+        Fused++;
         yoho();
     } if (keys["ArrowRight"] && position < 99 && fuel >= 1) {
         position += 0.3;
         fuel--;
+        Fused++;
         yoho();
     } if ((keys["Space"]) && spaceTime && fuel >= 50) {
         ballz();
         fuel -= 50;
+        Fused+= 50;
         spaceTime = false;
         setTimeout(() => {
             spaceTime = true;
