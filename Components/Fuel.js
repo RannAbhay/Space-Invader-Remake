@@ -4,7 +4,7 @@ let checkfuelupdate =setInterval(() => {
 
 let checkfuelinterval = setInterval(() => {
     checkFuel();
-}, 30);
+}, 20);
 
 function checkFuel() {
     if (areNoKeysPressed() && fuel < 1000) {
