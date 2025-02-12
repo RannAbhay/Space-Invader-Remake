@@ -12,7 +12,7 @@ function Oppballz(top1, left1) {
     let interval = setInterval(() => {
         upp += 4;
         newDiv.style.top = `${upp}px`;
-        if (upp >= 1000) {
+        if (upp >= window.innerHeight + 100) {
             clearInterval(interval);
             newDiv.remove();
         }
