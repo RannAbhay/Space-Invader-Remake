@@ -11,7 +11,8 @@ function ballz() {
     let interval = setInterval(() => {
         upp += 5;
         newDiv.style.bottom = `${upp}px`;
-        if (upp >= 1000) {
+        if (upp >= window.innerHeight + 100) {
+            clearInterval(interval);
             newDiv.remove();
         }
     }, 5);
